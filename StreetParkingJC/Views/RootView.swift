@@ -28,6 +28,8 @@ struct RootView: View {
             .foregroundColor(Colors.appForeground)
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
+                    Spacer()
+                    
                     Button(action: {
                         currentState.changeView(to: ViewType.ParkingMapView)
                     }) {
@@ -49,6 +51,8 @@ struct RootView: View {
                         }
                     }.buttonStyle(MainButtonStyle())
                     .addSelectedBadge(currentState.currentView == ViewType.SettingsView)
+                    
+                    Spacer()
                     
                 }
             }
