@@ -15,6 +15,8 @@ struct MapView: UIViewRepresentable {
     
     let locationManager = CLLocationManager()
     
+    let mvDelegate = MapViewDelegate()
+    
     let locMgrDelegate = LocationMgrDelegate()
     
     let defaultLocation = CLLocationCoordinate2D(latitude: 40.720690, longitude: -74.046660)
@@ -24,7 +26,14 @@ struct MapView: UIViewRepresentable {
         locationManager.delegate = locMgrDelegate
         let mv =  MKMapView(frame: .zero)
         mv.showsUserLocation = true
+        mv.delegate = mvDelegate
         updateMap(mv)
+
+//        let p1 = MKMapPoint(CLLocationCoordinate2D(latitude: 40.71809322149233, longitude: -74.04620004425092))
+//        let p2 = MKMapPoint(CLLocationCoordinate2D(latitude: 40.717506038838614, longitude: -74.04651640780612))
+//        let overlay = MKPolyline(points: [p1,p2], count: 2)
+//        mv.addOverlay(overlay)
+        
         return mv
     }
     
@@ -49,9 +58,38 @@ struct MapView: UIViewRepresentable {
         
         print("Current location: \(coordinate)")
         
-        let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+        let span = MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
         let region = MKCoordinateRegion(center: coordinate, span: span)
         view.setRegion(region, animated: true)
+    }
+    
+}
+
+class MapViewDelegate: NSObject, MKMapViewDelegate {
+    
+    private let overlayColor = UIColor.yellow
+    private let overlayTransparency = 0.5
+    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        switch overlay {
+            case let overlay as MKCircle:
+                let renderer = MKCircleRenderer(circle: overlay)
+                renderer.fillColor = overlayColor
+                renderer.alpha = overlayTransparency
+                return renderer
+            
+            case let overlay as MKPolyline:
+                let renderer = MKPolylineRenderer(polyline: overlay)
+                renderer.fillColor = overlayColor
+                renderer.strokeColor = overlayColor
+                renderer.lineWidth = 5
+                renderer.alpha = overlayTransparency
+                return renderer
+            
+            default:
+                return MKOverlayRenderer(overlay: overlay)
+        }
+            
     }
     
 }

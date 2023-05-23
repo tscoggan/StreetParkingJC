@@ -113,7 +113,7 @@
 			children = (
 				14DD13CE2A1D31CF00D8E61A /* Info.plist */,
 				14DD13C72A1D2F7600D8E61A /* Model */,
-				14DD13C62A1D2F6C00D8E61A /* Styles */,
+				14DD13C62A1D2F6C00D8E61A /* Style */,
 				14AF8B9D2A1D298200D49529 /* Views */,
 				14AF8B6F2A1D289D00D49529 /* StreetParkingJCApp.swift */,
 				14AF8B992A1D292200D49529 /* CurrentState.swift */,
@@ -160,13 +160,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		14DD13C62A1D2F6C00D8E61A /* Styles */ = {
+		14DD13C62A1D2F6C00D8E61A /* Style */ = {
 			isa = PBXGroup;
 			children = (
 				14DD13CA2A1D2FBE00D8E61A /* Colors.swift */,
 				14DD13CC2A1D2FD900D8E61A /* Styles.swift */,
 			);
-			path = Styles;
+			path = Style;
 			sourceTree = "<group>";
 		};
 		14DD13C72A1D2F7600D8E61A /* Model */ = {

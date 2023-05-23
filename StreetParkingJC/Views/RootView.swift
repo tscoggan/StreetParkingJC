@@ -34,7 +34,7 @@ struct RootView: View {
                         currentState.changeView(to: ViewType.ParkingMapView)
                     }) {
                         VStack {
-                            Image(systemName: "map")
+                            Image(systemName: "map.fill")
                             Text("Street Map")
                         }
                     }.buttonStyle(MainButtonStyle())
@@ -46,7 +46,7 @@ struct RootView: View {
                         currentState.changeView(to: ViewType.SettingsView)
                     }) {
                         VStack {
-                            Image(systemName: "airplane")
+                            Image(systemName: "gearshape.fill")
                             Text("Settings")
                         }
                     }.buttonStyle(MainButtonStyle())
