@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14AF8B702A1D289D00D49529 /* StreetParkingJCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8B6F2A1D289D00D49529 /* StreetParkingJCApp.swift */; };
+		14AF8B742A1D289E00D49529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AF8B732A1D289E00D49529 /* Assets.xcassets */; };
+		14AF8B772A1D289E00D49529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AF8B762A1D289E00D49529 /* Preview Assets.xcassets */; };
+		14AF8B812A1D289F00D49529 /* StreetParkingJCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8B802A1D289F00D49529 /* StreetParkingJCTests.swift */; };
+		14AF8B8B2A1D289F00D49529 /* StreetParkingJCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8B8A2A1D289F00D49529 /* StreetParkingJCUITests.swift */; };
+		14AF8B8D2A1D289F00D49529 /* StreetParkingJCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8B8C2A1D289F00D49529 /* StreetParkingJCUITestsLaunchTests.swift */; };
+		14AF8B9A2A1D292200D49529 /* CurrentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8B992A1D292200D49529 /* CurrentState.swift */; };
+		14AF8B9F2A1D299600D49529 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8B9E2A1D299600D49529 /* RootView.swift */; };
+		14AF8BA12A1D29C100D49529 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8BA02A1D29C100D49529 /* MapView.swift */; };
+		14AF8BA52A1D2A8500D49529 /* TitleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8BA42A1D2A8500D49529 /* TitleScreenView.swift */; };
+		14AF8BA72A1D2B3800D49529 /* ParkingMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8BA62A1D2B3800D49529 /* ParkingMapView.swift */; };
+		14AF8BA92A1D2DD500D49529 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF8BA82A1D2DD500D49529 /* SettingsView.swift */; };
+		14DD13C92A1D2F9300D8E61A /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DD13C82A1D2F9300D8E61A /* ViewType.swift */; };
+		14DD13CB2A1D2FBE00D8E61A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DD13CA2A1D2FBE00D8E61A /* Colors.swift */; };
+		14DD13CD2A1D2FD900D8E61A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DD13CC2A1D2FD900D8E61A /* Styles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14AF8B7D2A1D289F00D49529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14AF8B642A1D289D00D49529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AF8B6B2A1D289D00D49529;
+			remoteInfo = StreetParkingJC;
+		};
+		14AF8B872A1D289F00D49529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14AF8B642A1D289D00D49529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AF8B6B2A1D289D00D49529;
+			remoteInfo = StreetParkingJC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14AF8B6C2A1D289D00D49529 /* StreetParkingJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetParkingJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AF8B6F2A1D289D00D49529 /* StreetParkingJCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetParkingJCApp.swift; sourceTree = "<group>"; };
+		14AF8B732A1D289E00D49529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14AF8B762A1D289E00D49529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14AF8B7C2A1D289F00D49529 /* StreetParkingJCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetParkingJCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AF8B802A1D289F00D49529 /* StreetParkingJCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetParkingJCTests.swift; sourceTree = "<group>"; };
+		14AF8B862A1D289F00D49529 /* StreetParkingJCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetParkingJCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AF8B8A2A1D289F00D49529 /* StreetParkingJCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetParkingJCUITests.swift; sourceTree = "<group>"; };
+		14AF8B8C2A1D289F00D49529 /* StreetParkingJCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetParkingJCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14AF8B992A1D292200D49529 /* CurrentState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentState.swift; sourceTree = "<group>"; };
+		14AF8B9E2A1D299600D49529 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		14AF8BA02A1D29C100D49529 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		14AF8BA42A1D2A8500D49529 /* TitleScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScreenView.swift; sourceTree = "<group>"; };
+		14AF8BA62A1D2B3800D49529 /* ParkingMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingMapView.swift; sourceTree = "<group>"; };
+		14AF8BA82A1D2DD500D49529 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		14DD13C82A1D2F9300D8E61A /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		14DD13CA2A1D2FBE00D8E61A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		14DD13CC2A1D2FD900D8E61A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		14DD13CE2A1D31CF00D8E61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14AF8B692A1D289D00D49529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AF8B792A1D289F00D49529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AF8B832A1D289F00D49529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AF8B632A1D289D00D49529 = {
+			isa = PBXGroup;
+			children = (
+				14AF8B6E2A1D289D00D49529 /* StreetParkingJC */,
+				14AF8B7F2A1D289F00D49529 /* StreetParkingJCTests */,
+				14AF8B892A1D289F00D49529 /* StreetParkingJCUITests */,
+				14AF8B6D2A1D289D00D49529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14AF8B6D2A1D289D00D49529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14AF8B6C2A1D289D00D49529 /* StreetParkingJC.app */,
+				14AF8B7C2A1D289F00D49529 /* StreetParkingJCTests.xctest */,
+				14AF8B862A1D289F00D49529 /* StreetParkingJCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14AF8B6E2A1D289D00D49529 /* StreetParkingJC */ = {
+			isa = PBXGroup;
+			children = (
+				14DD13CE2A1D31CF00D8E61A /* Info.plist */,
+				14DD13C72A1D2F7600D8E61A /* Model */,
+				14DD13C62A1D2F6C00D8E61A /* Styles */,
+				14AF8B9D2A1D298200D49529 /* Views */,
+				14AF8B6F2A1D289D00D49529 /* StreetParkingJCApp.swift */,
+				14AF8B992A1D292200D49529 /* CurrentState.swift */,
+				14AF8B732A1D289E00D49529 /* Assets.xcassets */,
+				14AF8B752A1D289E00D49529 /* Preview Content */,
+			);
+			path = StreetParkingJC;
+			sourceTree = "<group>";
+		};
+		14AF8B752A1D289E00D49529 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14AF8B762A1D289E00D49529 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14AF8B7F2A1D289F00D49529 /* StreetParkingJCTests */ = {
+			isa = PBXGroup;
+			children = (
+				14AF8B802A1D289F00D49529 /* StreetParkingJCTests.swift */,
+			);
+			path = StreetParkingJCTests;
+			sourceTree = "<group>";
+		};
+		14AF8B892A1D289F00D49529 /* StreetParkingJCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14AF8B8A2A1D289F00D49529 /* StreetParkingJCUITests.swift */,
+				14AF8B8C2A1D289F00D49529 /* StreetParkingJCUITestsLaunchTests.swift */,
+			);
+			path = StreetParkingJCUITests;
+			sourceTree = "<group>";
+		};
+		14AF8B9D2A1D298200D49529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14AF8B9E2A1D299600D49529 /* RootView.swift */,
+				14AF8BA42A1D2A8500D49529 /* TitleScreenView.swift */,
+				14AF8BA82A1D2DD500D49529 /* SettingsView.swift */,
+				14AF8BA62A1D2B3800D49529 /* ParkingMapView.swift */,
+				14AF8BA02A1D29C100D49529 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14DD13C62A1D2F6C00D8E61A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				14DD13CA2A1D2FBE00D8E61A /* Colors.swift */,
+				14DD13CC2A1D2FD900D8E61A /* Styles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		14DD13C72A1D2F7600D8E61A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14DD13C82A1D2F9300D8E61A /* ViewType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14AF8B6B2A1D289D00D49529 /* StreetParkingJC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AF8B902A1D289F00D49529 /* Build configuration list for PBXNativeTarget "StreetParkingJC" */;
+			buildPhases = (
+				14AF8B682A1D289D00D49529 /* Sources */,
+				14AF8B692A1D289D00D49529 /* Frameworks */,
+				14AF8B6A2A1D289D00D49529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetParkingJC;
+			productName = StreetParkingJC;
+			productReference = 14AF8B6C2A1D289D00D49529 /* StreetParkingJC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14AF8B7B2A1D289F00D49529 /* StreetParkingJCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AF8B932A1D289F00D49529 /* Build configuration list for PBXNativeTarget "StreetParkingJCTests" */;
+			buildPhases = (
+				14AF8B782A1D289F00D49529 /* Sources */,
+				14AF8B792A1D289F00D49529 /* Frameworks */,
+				14AF8B7A2A1D289F00D49529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AF8B7E2A1D289F00D49529 /* PBXTargetDependency */,
+			);
+			name = StreetParkingJCTests;
+			productName = StreetParkingJCTests;
+			productReference = 14AF8B7C2A1D289F00D49529 /* StreetParkingJCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14AF8B852A1D289F00D49529 /* StreetParkingJCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AF8B962A1D289F00D49529 /* Build configuration list for PBXNativeTarget "StreetParkingJCUITests" */;
+			buildPhases = (
+				14AF8B822A1D289F00D49529 /* Sources */,
+				14AF8B832A1D289F00D49529 /* Frameworks */,
+				14AF8B842A1D289F00D49529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AF8B882A1D289F00D49529 /* PBXTargetDependency */,
+			);
+			name = StreetParkingJCUITests;
+			productName = StreetParkingJCUITests;
+			productReference = 14AF8B862A1D289F00D49529 /* StreetParkingJCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14AF8B642A1D289D00D49529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					14AF8B6B2A1D289D00D49529 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					14AF8B7B2A1D289F00D49529 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 14AF8B6B2A1D289D00D49529;
+					};
+					14AF8B852A1D289F00D49529 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 14AF8B6B2A1D289D00D49529;
+					};
+				};
+			};
+			buildConfigurationList = 14AF8B672A1D289D00D49529 /* Build configuration list for PBXProject "StreetParkingJC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14AF8B632A1D289D00D49529;
+			productRefGroup = 14AF8B6D2A1D289D00D49529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14AF8B6B2A1D289D00D49529 /* StreetParkingJC */,
+				14AF8B7B2A1D289F00D49529 /* StreetParkingJCTests */,
+				14AF8B852A1D289F00D49529 /* StreetParkingJCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14AF8B6A2A1D289D00D49529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AF8B772A1D289E00D49529 /* Preview Assets.xcassets in Resources */,
+				14AF8B742A1D289E00D49529 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AF8B7A2A1D289F00D49529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AF8B842A1D289F00D49529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14AF8B682A1D289D00D49529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AF8BA92A1D2DD500D49529 /* SettingsView.swift in Sources */,
+				14DD13CD2A1D2FD900D8E61A /* Styles.swift in Sources */,
+				14DD13CB2A1D2FBE00D8E61A /* Colors.swift in Sources */,
+				14AF8B702A1D289D00D49529 /* StreetParkingJCApp.swift in Sources */,
+				14AF8BA12A1D29C100D49529 /* MapView.swift in Sources */,
+				14AF8B9A2A1D292200D49529 /* CurrentState.swift in Sources */,
+				14AF8B9F2A1D299600D49529 /* RootView.swift in Sources */,
+				14AF8BA72A1D2B3800D49529 /* ParkingMapView.swift in Sources */,
+				14DD13C92A1D2F9300D8E61A /* ViewType.swift in Sources */,
+				14AF8BA52A1D2A8500D49529 /* TitleScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AF8B782A1D289F00D49529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AF8B812A1D289F00D49529 /* StreetParkingJCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AF8B822A1D289F00D49529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AF8B8B2A1D289F00D49529 /* StreetParkingJCUITests.swift in Sources */,
+				14AF8B8D2A1D289F00D49529 /* StreetParkingJCUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14AF8B7E2A1D289F00D49529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14AF8B6B2A1D289D00D49529 /* StreetParkingJC */;
+			targetProxy = 14AF8B7D2A1D289F00D49529 /* PBXContainerItemProxy */;
+		};
+		14AF8B882A1D289F00D49529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14AF8B6B2A1D289D00D49529 /* StreetParkingJC */;
+			targetProxy = 14AF8B872A1D289F00D49529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14AF8B8E2A1D289F00D49529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14AF8B8F2A1D289F00D49529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14AF8B912A1D289F00D49529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreetParkingJC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreetParkingJC/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikinet.StreetParkingJC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14AF8B922A1D289F00D49529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreetParkingJC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreetParkingJC/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location data required to show a map of your area";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikinet.StreetParkingJC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14AF8B942A1D289F00D49529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikinet.StreetParkingJCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetParkingJC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StreetParkingJC";
+			};
+			name = Debug;
+		};
+		14AF8B952A1D289F00D49529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikinet.StreetParkingJCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetParkingJC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StreetParkingJC";
+			};
+			name = Release;
+		};
+		14AF8B972A1D289F00D49529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikinet.StreetParkingJCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreetParkingJC;
+			};
+			name = Debug;
+		};
+		14AF8B982A1D289F00D49529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikinet.StreetParkingJCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreetParkingJC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14AF8B672A1D289D00D49529 /* Build configuration list for PBXProject "StreetParkingJC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AF8B8E2A1D289F00D49529 /* Debug */,
+				14AF8B8F2A1D289F00D49529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AF8B902A1D289F00D49529 /* Build configuration list for PBXNativeTarget "StreetParkingJC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AF8B912A1D289F00D49529 /* Debug */,
+				14AF8B922A1D289F00D49529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AF8B932A1D289F00D49529 /* Build configuration list for PBXNativeTarget "StreetParkingJCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AF8B942A1D289F00D49529 /* Debug */,
+				14AF8B952A1D289F00D49529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AF8B962A1D289F00D49529 /* Build configuration list for PBXNativeTarget "StreetParkingJCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AF8B972A1D289F00D49529 /* Debug */,
+				14AF8B982A1D289F00D49529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14AF8B642A1D289D00D49529 /* Project object */;
+}
